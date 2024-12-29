@@ -42,7 +42,7 @@ const createPlayer = (type, playerName) => {
     type: type,
     name: type === 'ai' ? 'computer' : playerName,
     boardId: '',
-    ships: createShips(playerId),
+    ships: [],
     isReady: false,
     isWon: false,
   };
